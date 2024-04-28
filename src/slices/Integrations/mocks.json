@@ -34,8 +34,73 @@
 						"icon",
 						{
 							"__TYPE__": "FieldContent",
-							"value": "npm",
-							"type": "Select"
+							"type": "Select",
+							"value": "cloudflare"
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "github"
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "npm"
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "figma"
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "digitalocean"
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "fly"
 						}
 					]
 				]

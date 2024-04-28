@@ -38,7 +38,7 @@ const Showcase = ({ slice }: ShowcaseProps): JSX.Element => {
           ),
         }}
       />
-      <div className="mt-16 grid items-center rounded-xl border border-blue-50/20 bg-gradient-to-b from-slate-50/15 to-slate-50/5 px-8 py-8 lg:grid-cols-3 lg:py-12">
+      <div className="mt-16 grid items-center gap-6 rounded-xl border border-blue-50/20 bg-gradient-to-b from-slate-50/15 to-slate-50/5 px-8 py-8 lg:grid-cols-3 lg:gap-0 lg:py-12">
         <div>
           <div className="w-fit rounded-lg bg-blue-500/35 p-4 text-3xl">
             <>
@@ -59,7 +59,7 @@ const Showcase = ({ slice }: ShowcaseProps): JSX.Element => {
         <PrismicNextImage
           field={slice.primary.image}
           className={clsx(
-            "pt-5 opacity-90 shadow-2xl lg:col-span-2 lg:pt-0",
+            "opacity-90 shadow-2xl lg:col-span-2 lg:pt-0",
             slice.variation === "reverse"
               ? "lg:order-1 lg:translate-x-[15%]"
               : "lg:-order-1 lg:translate-x-[-15%]",
