@@ -23,11 +23,9 @@ const CallToAction = ({ slice }: CallToActionProps): JSX.Element => {
       <div className="glass-container rounded-lg bg-gradient-to-b from-slate-800 to-slate-900 p-4 md:rounded-xl">
         <PlainLogo />
       </div>
-
       <div className="mb-6 mt-8 max-w-xl text-balance text-5xl">
         <PrismicText field={slice.primary.heading} />
       </div>
-
       <ButtonLink field={slice.primary.button_link}>
         {slice.primary.button_text || "Learn More"}
       </ButtonLink>
