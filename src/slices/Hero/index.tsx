@@ -23,7 +23,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
       <div className="relative">
         <StarGrid />
         {isFilled.richText(slice.primary.heading) && (
-          <h1 className="text-balance text-5xl font-medium md:text-7xl">
+          <h1 className=" text-balance text-5xl font-medium md:text-7xl">
             <PrismicText field={slice.primary.heading} />
           </h1>
         )}
@@ -38,7 +38,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
           </ButtonLink>
         )}
         {isFilled.image(slice.primary.image) && (
-          <div className="glass-container mx-5 mt-16 w-fit">
+          <div className="glass-container mt-16">
             <div className="absolute inset-0 -z-10 bg-blue-500/30 blur-2xl filter" />
             <PrismicNextImage
               className="rounded-lg "
