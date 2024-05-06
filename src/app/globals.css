@@ -26,6 +26,6 @@
 
 @media (max-width: 767px) {
   .signal-line {
-    --rotation: 0deg;
+    --rotation: 180deg;
   }
 }
