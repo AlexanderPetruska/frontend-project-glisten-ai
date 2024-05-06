@@ -19,8 +19,8 @@ export default function AnimatedContent({
     () => {
       if (prefersReducedMotion) {
         gsap.set(container.current, { y: 0 });
+        return;
       }
-      return;
 
       gsap.fromTo(
         container.current,

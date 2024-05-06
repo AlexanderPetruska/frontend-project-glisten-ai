@@ -36,6 +36,11 @@ export default function AnimatedContent({
 
   useGSAP(
     () => {
+      if (prefersReducedMotion) {
+        gsap.set(container.current, { y: 0 });
+        return;
+      }
+
       const tl = gsap.timeline({
         repeat: -1,
         defaults: { ease: "power2.inOut" },
